@@ -1,0 +1,62 @@
+body {
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 12pt;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#header {
+    /*text-align: center;
+    margin-bottom: 1em;*/
+    height: 5em;
+    z-index: 1;
+}
+#header , footer{
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: #AAB;
+    background-color: rgb(51, 81, 119);
+    font-family: "Franklin Gothic Demi", Verdana, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+#headerDraw{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 10px;
+}
+h3,#header, footer{
+    display: block;
+    padding: 0 1em;
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: normal;
+    font-style: italic;
+    font-family: "Impact", fantasy;
+}
+
+legend {
+    font-family: "Impact", fantasy;
+    font-size: 120%;
+}
+
+textarea {
+    font-family: monospace;
+    font-size: 12pt;
+}
+.textareaFont{
+    font-size: 24pt;
+}
+.textareaFontWeight{
+    font-weight: bold;
+    color: green;
+    text-decoration: underline;
+}
+.uncheckedfont{
+    font-weight: normal;
+}
